@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page-3</title>
+    <style>
+ 
+
+
+        #p1{
+            position: relative;
+            bottom: 110px;
+            left: 400px;
+            text-decoration: none;
+            margin: 44px;
+            padding: 44px;
+            font-size: 18px;
+        }
+        
+
+        #p2{
+            position: relative;
+            bottom:107px;
+            left: 500px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        #p3{
+            position: relative;
+bottom: 102px;
+left: 675px;
+text-decoration: none; 
+font-size: 18px;       }
+
+        #p1:hover{
+          text-decoration: underline;
+          color: orangered;
+          /* color: rgb(241, 64, 0); */
+                }
+                #p2:hover{
+          text-decoration: underline;
+          color: orangered;
+          /* color: rgb(241, 64, 0); */
+                }
+                #p3:hover{
+          text-decoration: underline;
+          color: orangered;
+          /* color: rgb(241, 64, 0); */
+                }
+
+            #hname{
+                position: relative;
+                bottom: 0px;
+                padding: 30px;
+
+                margin: 2px;
+            }
+
+            #hname2{
+                position: relative;
+                bottom: 40px;
+                padding: 20px;
+                left: 63px;
+
+                margin: 1px;
+            }
+
+            html{
+                background-color: white;
+            }
+
+
+            #img{
+                width: 40%;
+                height: 40%;
+                margin: 2px;
+                padding-left: 2px;
+                position: relative;
+                bottom: 44px;
+            }
+
+            #position{
+                position: relative;
+                /* width: 25px; */
+                bottom: 44px;
+                left:24px;
+                text-decoration: none;
+                color: black;
+
+            }
+
+            a{
+                text-decoration: none;
+                color: black;
+            }
+
+            #pos:hover{
+                cursor: pointer;
+                color: orangered;
+            }
+
+            #brands{
+                text-align: center;
+                justify-content: center;
+                position: relative;
+                bottom: 994px;
+                left: 144px;
+            }
+
+            #brand:hover{
+                color: orangered;
+
+            }
+
+            #name{
+                font-size: 28px;
+                position: relative;
+                bottom: 1000px;
+                width: 40%;
+                left: 564px;
+                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+
+            #star{
+                width: 1.5%;
+                height: 1.5%;
+            }
+
+            #rate{
+                position: relative;
+                bottom: 1024px;
+                left: 564px;
+            }
+
+          #offerimg{
+            width: 10%;
+            height: 10%;
+            position: relative;
+            left: 1000px;
+            bottom: 1340px;
+          }
+
+          #offer{
+            position: relative;
+            left: 950px;
+            bottom: 1200px;
+            font-size: 16px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-style: underline;
+            /* background-color: rgb(137, 238, 204); */
+            border-radius: 24px;
+            color: black;
+            /* background-color: black;
+            color: wheat; */
+          }
+
+          #dis{
+            color: red;
+            position: relative;
+            left: 575px;
+            bottom: 1040px;
+            font-size: 22px;
+          }
+
+          #price{
+            /* color: red; */
+            position: relative;
+            left: 635px;
+            bottom: 1100px;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 30px;
+          }
+
+          #orgprice{
+            /* color: red; */
+            position: relative;
+            left: 575px;
+            bottom: 1150px;
+        
+            font-size: 14px;
+          }
+
+          #orgprice2{
+            /* color: red; */
+            position: relative;
+            left: 575px;
+            bottom: 1197px;
+        
+            font-size: 18px;
+          }
+
+          
+          #orgprice3{
+            /* color: red; */
+            position: relative;
+            left: 575px;
+            bottom: 1380px;
+        
+            font-size: 18px;
+          }
+
+          #thumb{ width: 2%;
+            height: 1%;
+            position: relative;
+            bottom: 1420px;
+            left: 600px;
+
+        
+
+          }
+
+          #review1{
+            position: relative;
+            left: 650px;
+            bottom: 1378px;
+          }
+
+          #review2{
+            position: relative;
+            left: 650px;
+            bottom: 1430px;
+          }
+
+          #thumb2{ width: 2%;
+            height: 1%;
+            position: relative;
+            bottom: 1470px;
+            left: 600px;}
+
+            #review3{
+            position: relative;
+            left: 650px;
+            bottom: 1480px;
+          }
+
+          #thumb3{ width: 2%;
+            height: 1%;
+            position: relative;
+            bottom: 1520px;
+            left: 600px;}
+
+
+            #review4{
+            position: relative;
+            left: 650px;
+            bottom: 1530px;
+          }
+
+          #thumb4{ width: 2%;
+            height: 1%;
+            position: relative;
+            bottom: 1570px;
+            left: 600px;}
+
+            #review5{
+            position: relative;
+            left: 570px;
+            bottom: 1580px;
+          }
+
+          #about{
+            position: relative;
+            left: 590px;
+            bottom: 1580px;
+          }
+
+          #aboutitem{
+            position: relative;
+            left: 570px;
+            bottom: 1580px;
+          }
+
+          #freedel{
+            position: relative;
+            width: 5%;
+            height: 5%;
+            bottom: 1564px;
+        left: 573px;          }
+
+        #delfree{
+            position: relative;
+            left: 570px;
+            bottom: 1560px;
+            color: rgb(67, 123, 139);
+        }
+
+        #freedel2{
+            position: relative;
+            width: 5%;
+            height: 5%;
+            bottom: 1664px;
+        left: 703px;          }
+
+        #delfree2{
+            position: relative;
+            left: 700px;
+            bottom: 1680px;
+            color: rgb(67, 123, 139);
+        }
+
+        
+        #freedel3{
+            position: relative;
+            width: 5%;
+            height: 5%;
+            bottom: 1784px;
+        left: 875px;          }
+
+        #delfree3{
+            position: relative;
+            left: 850px;
+            bottom: 1800px;
+            color: rgb(67, 123, 139);
+        }
+
+        #freedel4{
+            position: relative;
+            width: 5%;
+            height: 5%;
+            bottom: 1908px;
+        left: 1030px;          }
+
+        #delfree4{
+            position: relative;
+            left: 1030px;
+            bottom: 1922px;
+            color: rgb(67, 123, 139);
+        }
+    
+
+    
+        #freedel5{
+            position: relative;
+            width: 5%;
+            height: 5%;
+            bottom: 2025px;
+        left: 1160px;          }
+
+        #delfree5{
+            position: relative;
+            left: 1140px;
+            bottom: 2042px;
+            color:rgb(67, 123, 139);
+        }
+
+        
+        #delfree6{
+            position: relative;
+            left: 563px;
+            bottom: 2042px;
+            color: rgb(67, 123, 139);
+        }
+
+        #details{
+            position: relative;
+            /* left: 5px; */
+            bottom: 1020px;
+            list-style-type: none;
+        }
+
+        #detailsH{
+            position: relative;
+            left: 5px;
+            bottom: 2030px;
+        }
+
+        #detailsstar{
+                width: 1.5%;
+                height: 1.5%;
+            }
+
+            #detailsstars{
+                position: relative;
+                bottom: 1024px;
+                left: 564px;
+            }
+    
+
+        #board1{
+            position: relative;
+            bottom: 1924px;
+            /* left: 564px; */
+        }
+
+        
+        #board2{
+            position: relative;
+            bottom: 1924px;
+            /* left: 564px; */
+        }
+
+    
+
+
+    
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1 id="hname">Pearl fashion store </h1>
+        <h4 id="hname2">~Styles in trend </h4>
+        <a href="" id="p1">Men's fashion</a>
+        <a  href="" id="p2">Women's fashion</a>
+        <a  href="" id="p3">Sales and deals</a>
+
+        <p id="position">
+                <a href="" id="pos">Clothing & Accessories ›</a>
+                <a href="" id="pos">Boys ›</a>
+                <a href="" id="pos">T-Shirts & Polos  › </a>
+                <a href="" id="pos">T-Shirts</a>
+        </p>
+
+    </header>
+
+
+    <img src="abhay.jpg" alt="" id="img">
+    <imgcaption></imgcaption>
+ 
+    <main>
+        <p id="brands"><a href="" id="brand">Brand: Fashionwore by Lakhani fashion's</a></p>
+        <p id="name">Fashionwore by Lakhani fashion's Boys's fit Blazer</p>
+        <p id="rate" style="color: rgb(11, 45, 77);">4.1 <img src="star.jpg.png" alt="" id="star">
+             <img src="star.jpg.png" alt=""  id="star">
+              <img src="star.jpg.png" alt=""  id="star"> 
+              <img src="star.jpg.png" alt=""  id="star">
+
+        <p id="rate" style="color: rgb(11, 45, 77);">5,124 ratings | 42 answersed questions | Most popular among 20's</p>
+        <p id="rate">______________________________________________________________________________________</p>
+        </p>
+
+        <!-- <section> -->
+            <!-- <h3><img src="offerimg.jpg" alt="" id="offerimg"></h3> -->
+            <!-- <p id="offer">Buy 2 and get 40% off!!</p> -->
+        <!-- </section> -->
+        
+       <section>
+       <p id="dis"> -28% </p>
+       <p id="price">₹4,247</p><br>
+<p id="orgprice">Original M.R.P.: <strike>₹5899 </strike></p><br>
+<p id="orgprice2">Inclusive of all taxes </p>
+<br>
+
+<section>
+    <h3><img src="offerimgorg.jg.jpg" alt="" id="offerimg"></h3>
+    <p id="orgprice3">_____________________________________________________________________________</p>
+    <!-- <p id="offer">Buy 2 and get 40% off!!</p> -->
+</section>
+
+
+<section>
+   <p id="review1">Highly rated by customers</p>
+    <img src="thumbs.jpg" alt="" id="thumb"> 
+
+    <p id="review2">Good print quality</p>
+    <img src="thumbs.jpg" alt="" id="thumb2"> 
+
+    
+    <p id="review3">Looks and fits fine</p>
+    <img src="thumbs.jpg" alt="" id="thumb3"> 
+
+    
+    <p id="review4">Best for wedding seasons !!</p>
+    <img src="thumbs.jpg" alt="" id="thumb4"> 
+
+    <p id="review5">______________________________________________________________________________________</p>
+
+
+</section>
+
+<section>
+    <h3 id="about">About this item:</h3>
+    <ul>
+        <li id="aboutitem">Care Instructions: Machine Wash</li>
+        <li id="aboutitem">Fit Type: Regular Fit</li>
+        <li id="aboutitem">Color Name: Bootlegreen</li>
+        <li id="aboutitem">70% Cotton 30% Polyester</li>
+        <li id="aboutitem">long sleeve shirt-in</li>
+        <li id="aboutitem">Machine wash</li>
+        <li id="aboutitem">fabric: Cotton polyester</li>
+        <li id="aboutitem">Sleeve length: long</li>
+        <li id="aboutitem">Print & pattern: Character Print</li>
+        <li id="aboutitem">Neck: Round neck</li>
+        <li id="aboutitem">length: regular</li>
+        <li id="aboutitem">Officially licensed disney merchandise, graphic print, does not Fade, soft dry fit fabric, tailored fit</li>
+    </ul>
+
+    <p id="aboutitem">____________________________________________________________________________________________ </p>
+</section>
+
+<section>
+    <img src="free delivery.jpg" alt="" id="freedel">
+    <p id="delfree">Free Delievery</p>
+
+    <img src="freecash.jpg" alt="" width="2%" height="2%" id="freedel2">
+    <p id="delfree2">Pay on delievery</p>
+
+    <img src="return.jpg" alt="" id="freedel3">
+    <p id="delfree3">Return and Exchange</p>
+
+    <img src="brand.jpg" alt="" id="freedel4">
+    <p id="delfree4">Top Brand</p>
+
+
+    <img src="secure.jpg" alt="" id="freedel5">
+    <p id="delfree5">Secure transactions</p>
+
+    <p id="delfree6">_______________________________________________________________________________________________</p>
+
+
+
+</section>
+
+<section>
+
+<h2 id="detailsH" style="font-family: monospace;">
+    Product details: </h2>
+    <ul id="details">
+      <li id="details"> <b>Package Dimensions :</b> 21.08 x 18.29 x 1.52 cm; 340 Grams</li>
+      <li id="details">  <b>Manufacturer :</b>   Crossroads Clothing Pvt. Ltd </li>
+       <li id="details"> <b>ASIN :</b>  B07TGZDTN2  </li>
+       <li id="details"> <b>Item model number :</b>   DLK0015.2  </li>
+        <li id="details"> <b>Country of Origin  :</b>   India  </li>
+       <li id="details"> <b>Department  :</b>   Boys  </li>
+        <li id="details"> <b>Manufacturer  :</b>   Crossroads Clothing Pvt. Ltd  </li>
+       <li id="details"> <b>Item Weight  :</b>   340 g  </li>
+       <li id="details"> <b>Generic Name  :</b>   Blazer(3 piece)  </li>
+       <li id="details"> <b>Best Sellers Rank:</b>  #3,058 in Clothing & Accessories (See Top 100 in Clothing & Accessories)  </ii>
+        <li id="details"> <b>#35 in Boys' T-Shirts</b></li><hr id="details">
+    <h2 id="details" style="left: -2px; font-family: serif;">Product Description:</h2>
+    <p id="details">This stylish casual printed shirt has a slim collar, long sleeves, and a curved hemline. Fabric & care - 100% premium cotton (Machine Wash regular), guaranteed 0% shrinkage post wash. Style tip - enhance your look by wearing this casual stylish/ latest shirt for men. Team it with a pair of chinos and white sneakers for a fun Smart Casual look. About the Brand Dennis Lingo - finding Basic Menswear for daily used can be hard among todays Fast fashion world, where trends change daily. That’s why we started Dennis Lingo, to create a one stop shop for premium essential clothing for everyday used at Lowest prices and bring basics back in trend.</p>
+    <br>
+    <hr id="details">
+    <h2 id="details" style="left: -2px; font-family: serif;">From the manufacturers</h2>
+    <img src="pexels-prime-cinematics-2057007.jpg" alt="" id="details" width="100%" height="100%">
+    <img src="pexels-emre-keshavarz-3528716.jpg" alt="" id="details" width="100%" height="100%">
+    <hr id="details">
+    <h2 id="details" style="left: -2px; font-family: serif;">Client Board:</h2>
+    <img src="website-template-preview-109210.jpg" alt="" id="details" width="100%" height="100%">
+    <hr id="details">
+    <h2 id="details" style="left: -2px; font-family: serif;">Top reviews from India:</h2>
+    <img src="profile.png" alt="" id="details" width="3%" height="3%" style="left: 14px;">
+    <p id="details" style="left: 60px; bottom: 1070px;">Mainik r.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Looking like awesome</b></p>
+    <p id="rate" style="color: rgb(11, 45, 77); left: 10px; bottom: 1070px;">4.0 <img src="star.jpg.png" alt="" id="star" width="20%"><img src="star.jpg.png" alt="" id="star"><img src="star.jpg.png" alt="" id="star"><img src="star.jpg.png" alt="" id="star">
+        <p id="details" style="left: 10px; bottom: 1070px;">Reviewed in India on 8 November 2023</b></p> 
+        <p id="details" style="left: 10px; bottom: 1070px;">Color:Bottlegreen | Size:M | <b style="color: brown;">Verified purchase</b></p> 
+        <p id="details" style="left: 10px; bottom: 1070px;">Material is good ... It's a pure cotton shirt... Fit & Size are slightly big ... But it's comfortable....</b></p>
+    
+    
+        <img src="profile.png" alt="" id="details" width="3%" height="3%" style="left: 14px;">
+        <p id="details" style="left: 60px; bottom: 1070px;">Dr.Abhi&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>No pocket money</b></p>
+        <p id="rate" style="color: rgb(11, 45, 77); left: 10px; bottom: 1070px;">5.0 <img src="star.jpg.png" alt="" id="star" width="20%"><img src="star.jpg.png" alt="" id="star" width="20%"><img src="star.jpg.png" alt="" id="star"><img src="star.jpg.png" alt="" id="star"><img src="star.jpg.png" alt="" id="star">
+            <p id="details" style="left: 10px; bottom: 1070px;">Reviewed in India on 9 November 2023</b></p> 
+            <p id="details" style="left: 10px; bottom: 1070px;">Color:NavuBlue | Size:L | <b style="color: brown;">Verified purchase</b></p> 
+            <p id="details" style="left: 10px; bottom: 1070px;">Fabric is smooth cotton. Looks fine.
+                Only con is lack of top pocket.</b></p>
+        
+        
+            <img src="profile.png" alt="" id="details" width="3%" height="3%" style="left: 14px;">
+            <p id="details" style="left: 60px; bottom: 1070px;">Shah&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Great for gift</b></p>
+            <p id="rate" style="color: rgb(11, 45, 77); left: 10px; bottom: 1070px;">5.0 <img src="star.jpg.png" alt="" id="star" width="20%"><img src="star.jpg.png" alt="" id="star" width="20%"><img src="star.jpg.png" alt="" id="star"><img src="star.jpg.png" alt="" id="star"><img src="star.jpg.png" alt="" id="star">
+                <p id="details" style="left: 10px; bottom: 1070px;">Reviewed in India on 11 october 2023</b></p> 
+                <p id="details" style="left: 10px; bottom: 1070px;">Color:Red | Size:L | <b style="color: brown;">Verified purchase</b></p> 
+                <p id="details" style="left: 10px; bottom: 1070px;">I gifted this to my colleague and he liked the shirt...he is very happy with the quality of the shirt</b></p>
+            
+            
+                <img src="profile.png" alt="" id="details" width="3%" height="3%" style="left: 14px;">
+                <p id="details" style="left: 60px; bottom: 1070px;">Vedant Nimat &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Best Quality model</b></p>
+                <p id="rate" style="color: rgb(11, 45, 77); left: 10px; bottom: 1070px;">4.0 <img src="star.jpg.png" alt="" id="star" width="20%"><img src="star.jpg.png" alt="" id="star"><img src="star.jpg.png" alt="" id="star"><img src="star.jpg.png" alt="" id="star">
+                    <p id="details" style="left: 10px; bottom: 1070px;">Reviewed in India on 2 october 2023</b></p> 
+                    <p id="details" style="left: 10px; bottom: 1070px;">Color:Sky Blue | Size:L | <b style="color: brown;">Verified purchase</b></p> 
+                    <p id="details" style="left: 10px; bottom: 1070px;">Good quality material....fully satisfied with order</b></p>
+                
+                
+                    <img src="profile.png" alt="" id="details" width="3%" height="3%" style="left: 14px;">
+                    <p id="details" style="left: 60px; bottom: 1070px;">Deepu&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Nice</b></p>
+                    <p id="rate" style="color: rgb(11, 45, 77); left: 10px; bottom: 1070px;">3.0<img src="star.jpg.png" alt="" id="star"><img src="star.jpg.png" alt="" id="star"><img src="star.jpg.png" alt="" id="star">
+                        <p id="details" style="left: 10px; bottom: 1070px;">Reviewed in India on 21 september 2023</b></p> 
+                        <p id="details" style="left: 10px; bottom: 1070px;">Color:Black | Size:XL | <b style="color: brown;">Verified purchase</b></p> 
+                        <p id="details" style="left: 10px; bottom: 1070px;">Perfect fit and cloth also nice</b></p>
+                        
+              
+                    <hr id="details">
+                    <h4 id="details" style="left: -2px; font-family: Georgia, 'Times New Roman', Times, serif;">Your recently viewed items and featured recommendations</h4>
+                    <p id="details" style="color: rgb(21, 86, 146);">
+                    View or edit your browsing historyAfter viewing product detail pages, look here to find an easy way to navigate back to pages you are interested in.
+                    </p>
+                    </ul>
+
+
+</body>
+</html>
+
+
+
